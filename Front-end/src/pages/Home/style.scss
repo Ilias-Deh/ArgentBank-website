@@ -1,0 +1,11 @@
+.section-Feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 920px) {
+    .section-Feature {
+        flex-direction: column ;
+      }
+}

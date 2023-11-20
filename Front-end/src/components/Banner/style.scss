@@ -1,0 +1,42 @@
+.banner {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0% 33%;
+    height: 300px;
+    position: relative;
+    width: 100%;
+}
+.banner-text {
+    background-color: white;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 200px;
+    position: absolute;
+    top: 12%;
+    right: 25%;
+}
+.banner-title {
+    margin: 0;
+    font-size:1rem;
+}
+.banner-description {
+    font-size: 0.9rem;
+}
+@media (min-width: 920px) {
+    .banner {
+        height: 400px;
+        background-position: 0% 33%;
+        }
+    .banner-text{
+        top: 65px;
+        right: 50px;
+        width: 300px;
+        margin: 2rem;
+    }
+    .banner-description {
+        font-size: 1.2rem;
+    }
+    .banner-title {
+        font-size: 1.5rem;
+    }
+}

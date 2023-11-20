@@ -1,0 +1,46 @@
+.background-color {
+    background-color: #12002b;
+    height: 800px;
+    position: relative;
+}
+.section{
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 3rem;
+
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.input {
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.button-submit {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border: none;
+    background-color: #00bc77;
+    color: #fff;
+    text-decoration: underline;
+}
